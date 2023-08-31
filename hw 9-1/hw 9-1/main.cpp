@@ -21,7 +21,7 @@ public:
     }
     bool operator<(const Fraction& rhs)  const
     {
-        return numerator_ < rhs.numerator_;
+        return numerator_ > rhs.numerator_;
     }
     bool operator<=(const Fraction& rhs) const
     {
